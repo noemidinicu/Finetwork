@@ -1,0 +1,121 @@
+html{
+    height: 100%;
+}
+
+body{
+
+    margin: 0;
+    height: 100%;
+    font-family: sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.bg-chica {
+    background-image: url(../img/chica.jpg);
+    height: 100%;
+    background-size: cover;
+}
+
+.left {
+    width: 50%;
+    padding: 60px 140px 0 80px;
+    color: white;
+}
+
+.right {
+    position: absolute;
+    width: 53%;
+    height: 100%;
+    bottom: 0;
+    right: 0;
+    background-color: white;
+
+}
+
+.txt {
+    padding: 20px 70px 0 5%;
+}
+
+h1 {
+    font-family: sans-serif;
+    letter-spacing: 0px;
+    font-weight: bold;
+    font-size: 55px;
+}
+
+h2 {
+    font-family: sans-serif;
+    font-weight: lighter;
+    line-height: 0,5px;
+    font-size: 23px;
+}
+
+h4 {
+    font-family: sans-serif;
+    margin-left: 40px;
+    margin-right: 25%;
+    font-size: 19px;
+    font-weight: lighter;
+    line-height: 25px;
+}
+
+button:hover {
+    border-bottom: 3px solid blueviolet; 
+    
+}
+
+label {
+    font-weight: bold;
+    font-family: sans-serif;
+    font-size: 16px;
+    margin-bottom: 10px;
+    margin-top: 15px;
+}
+
+.btn {
+    border: 0;
+    padding: 8px 30px;
+    font-size: 20px;
+    background-color: white;
+    color: blueviolet;
+}
+
+span {
+    font-weight: bold;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+input {
+    width: 550px;
+    height: 60px;
+    border: 1px solid black; 
+}
+
+a {
+    font-family: sans-serif;
+    text-decoration: none;
+    color: blueviolet;
+}
+
+.m-0 {
+    margin-top: 30px;
+}
+
+.submit {
+    width: 300px;
+    height: 75px;
+    font-size: 20px;
+    color: white;
+    background-color: rgb(65, 34, 239);
+}
+
+.size {
+   font-size: 25px; 
+}
