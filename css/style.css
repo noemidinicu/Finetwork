@@ -35,50 +35,58 @@ body{
 
 }
 
+.m-1 {
+    margin-top: 20%;
+}
+
 .txt {
     padding: 20px 70px 0 5%;
 }
 
 h1 {
-    font-family: sans-serif;
+    font-family: Tusker Grotesk 5700 Bold;
     letter-spacing: 0px;
     font-weight: bold;
-    font-size: 55px;
+    font-size: 40px;
 }
 
 h2 {
-    font-family: sans-serif;
+    font-family: Hype Vol 1 1000 Ultra;
     font-weight: lighter;
     line-height: 0,5px;
-    font-size: 23px;
+    font-size: 21px;
 }
 
 h4 {
     font-family: sans-serif;
-    margin-left: 40px;
+    margin-left: 20px;
     margin-right: 25%;
-    font-size: 19px;
+    font-size: 13px;
     font-weight: lighter;
     line-height: 25px;
 }
 
+hr {
+    border-bottom:  3px solid blueviolet;
+    width: 150px;
+}
+
 button:hover {
-    border-bottom: 3px solid blueviolet; 
-    
+    border-bottom: 3px solid blueviolet;   
 }
 
 label {
     font-weight: bold;
     font-family: sans-serif;
-    font-size: 16px;
+    font-size: 13px;
     margin-bottom: 10px;
-    margin-top: 15px;
+    margin-top: 8px;
 }
 
 .btn {
     border: 0;
-    padding: 8px 30px;
-    font-size: 20px;
+    padding: 8px 5px;
+    font-size: 15px;
     background-color: white;
     color: blueviolet;
 }
@@ -93,8 +101,8 @@ form {
 }
 
 input {
-    width: 550px;
-    height: 60px;
+    width: 430px;
+    height: 45px;
     border: 1px solid black; 
 }
 
@@ -105,17 +113,22 @@ a {
 }
 
 .m-0 {
-    margin-top: 30px;
+    margin-top: 10px;
 }
 
 .submit {
-    width: 300px;
-    height: 75px;
+    width: 250px;
+    height: 55px;
     font-size: 20px;
     color: white;
+    border-color: rgb(65, 34, 239);
     background-color: rgb(65, 34, 239);
 }
 
 .size {
    font-size: 25px; 
+}
+
+p {
+    font-size: 12px;
 }
